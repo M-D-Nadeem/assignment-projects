@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Rose', serif;;
+}
+body{
+    background-image:url(/assignment-projects/html-and-css-project-1/assets/pexels-maxyne-barcel-10402282\ 1\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:local;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 30px;
+}
+.header{
+    margin: 20px 30px 20px 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.logo{
+    justify-self:left;
+    padding: 10px;
+    width: 40px;
+    border: 2px solid rgb(33, 32, 32);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.logo:hover{
+    background-color:antiquewhite;
+}
+.mainbar{
+    justify-self:center;
+}
+.mainbar ul{
+    display: inline-flex;
+    list-style: none;
+    gap: 25px;
+    font-weight:1000;
+    font-size: larger;
+    color:#ffc23f; ;
+    cursor: pointer;
+}
+.mainbar ul :hover{
+    color:whitesmoke;
+}
+.orderbutton{
+    justify-self: right;
+}
+.orderbutton button{
+    width: 65px;
+    height:25px;
+    background-color: red;
+}
+.orderbutton button a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: larger;
+    cursor: pointer;
+}
+.orderbutton button:hover{
+    background-color:brown;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    row-gap: 20px;
+}
+.main p{
+    
+    font-family: "Dela Gothic One", cursive;
+    font-weight: 900;
+    font-size:100px;
+    line-height: 104px;
+    font-variant:normal;
+    color: #ffc23f; ;
+    text-align:center;
+    
+}
+.readmenubutton{
+    width: 150px;
+    height:35px;
+    background-color: red;
+}
+.readmenubutton a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: larger;
+    cursor: pointer;
+}
+.readmenubutton:hover{
+    background-color:brown;
+    cursor: pointer;
+}
+.footer{
+     justify-self: flex-end;
+     margin: 50px 30px 0px 30px;
+     
+}
+.footer img{
+    margin: 0;
+    height: 110px;
+    width: 110px;
+}
