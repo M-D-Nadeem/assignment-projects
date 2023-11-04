@@ -1,0 +1,130 @@
+body{
+    margin: 50px 50px 50px 50px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #aae1e8;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 60px;
+}
+.header div{
+    display: grid;
+    grid-template-columns: auto auto  auto;
+    align-items: center;
+}
+.header div i{
+    justify-self:left;
+}
+.header div ul{
+    justify-self: center;
+    
+    align-self:self-start;
+    display: grid ;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+}
+
+.header div ul li{
+    list-style: none;
+}
+.header div ul li a{
+    text-decoration:none;
+    font-size: medium;
+    color: black;
+}
+.header div ul li a:hover{
+    background-color: grey;
+    font-size: larger;
+    padding: 5px;
+    border-radius: 10px;
+}
+.search{
+    justify-self: right;
+
+}
+.search input{
+     border-radius: 10px;
+    
+     height: 20px;
+     margin: 20px; 
+}
+
+.search button {
+  
+    height: 25px;
+
+}
+.search button a{
+    text-decoration:none;
+    font-size: medium;
+    color: black;
+}
+.search button a:hover{
+  color: rgb(69, 69, 228);
+}
+.search input:focus{
+    height: 30px;
+    font-size: larger;
+    font-weight:200;
+}
+.header{
+    margin-bottom: 50px;
+}
+.main{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.main-right{
+    justify-self: left;
+}
+.main-right h1 span{
+    font-size: 40px;
+    color:darkcyan
+}
+.main-right p span{
+    color:darkcyan;
+    font-size: larger;
+}
+.main_left{
+    justify-self: right;
+    display: grid;
+    grid-template-rows: auto  auto;
+    row-gap: 20px;
+    
+}
+.main_left img{
+    border-radius: 50%;
+    box-shadow:5px 5px 5px 5px rgb(125, 124, 124);
+}
+.main_left button{
+    justify-self: center;
+    height: 25px;
+    width: 50%;
+    border-radius:20px;
+}
+.main_left button a{
+    text-decoration:none;
+    font-size: medium;
+    color: black;
+}
+.main_left button a:hover{
+  color: rgb(69, 69, 228);
+}
+footer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.footer-right{
+    position: relative;
+    left: 30px;
+}
+.footer-left ul{
+      display: grid;
+      grid-template-columns: auto auto auto;
+}
+.footer-left ul li{
+    list-style: none;
+}
+.footer-left ul li:hover{
+    
+}
