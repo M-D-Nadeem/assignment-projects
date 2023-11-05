@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+   
+}
+.headerdiv{
+    margin: 0;
+    background-color: black;
+}
+.header{
+    margin: 0 40px 0 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: white;
+    height: 55px;
+}
+.logo{
+    justify-self: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+   border-radius: 50%;
+   height: 35px;
+   width: 35px;
+   background-color: #ba0cc5;
+    border: 2px solid #ba0cc5;
+    
+}
+.logo i{
+    padding-left: 7px;
+    padding-top: 8px;
+    
+}
+.logo:hover{
+    filter:drop-shadow(0px 0px 20px #eb07fb);
+    cursor: pointer;
+}
+.mainbar ul{
+    display: inline-flex;
+    column-gap: 30px;
+    list-style: none;
+}
+.mainbar{
+      justify-self: left;
+      align-self: center;
+
+}
+.line{
+    justify-self: left;
+    margin: 15px 0 10px 0;
+    display: inline;
+    height: 30px;
+    width: 1.75px;
+    background-color: white;
+    border-color: white;
+ }  
+ .list:hover{
+    filter:drop-shadow(0px 0px 20px #eb07fb);
+    cursor: pointer;
+ }
+ ul:hover{
+    filter:drop-shadow(0px 0px 20px #eb07fb);
+ }
+.main{
+    
+    background-image: url(/assignment-projects/html-and-css-project-3/assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 91.5vh;
+}
+.buybutton{
+    justify-self: right;
+    align-self: center;
+
+}
+.buybutton button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #eb07fb;
+    
+}
+.buybutton button a{
+    text-decoration: none;
+    color: white;
+}
+.buybutton:hover{
+    
+    filter:drop-shadow(0px 0px 15px #eb07fb);
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+}
+.p1{
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 85px;
+    text-align: center;
+    color: white;
+}
+.p2{
+    font-weight:600;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+.request-button button{
+    height: 30px;
+    width: 170px;
+    border-radius: 10px;
+    background-color: #eb07fb;
+}
+
+.request-button button a{
+    text-decoration: none;
+    color: white;
+}
+.request-button{
+    filter:drop-shadow(0px 0px 15px #eb07fb);
+    cursor: pointer;
+}
